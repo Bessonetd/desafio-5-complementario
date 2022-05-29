@@ -119,3 +119,21 @@ h3{
 }
 
 /* fin pagina mundo */
+
+/* inicio pagina contacto */
+.contacto{
+    height: 900px;
+}
+.contacto h1{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    text-shadow: wheat 2px 2px 1px;
+}
+.contacto label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: wheat;
+}
+/* fin pagina contacto */
