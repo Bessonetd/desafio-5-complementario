@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* inicio nav */
+nav{
+    background-image: linear-gradient(to top, #333333, #47424b, #624f5f, #825b6e, #a46877);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav a{
+    font-size: 25px;
+}
+.logo{
+    font-size: 40px;
+}
+span{
+    color: orangered;
+}
+/* fin nav */
+
+/* inicio main */
+main{
+    background-color: #333333;
+}
+
+/* inicio section noticia */
+.noticia{
+    padding: 20px ;  
+    margin-left: 0.1px;
+}
+article{
+    border: solid ;
+    border-radius: 8px;
+    border-style: outset;
+    margin-bottom: 10px; 
+}
+article h2 {
+    color: #ffa500;
+}
+article p {
+    color: wheat;
+}
+/* fin section noticia */
+
+/* inicio section video */
+.video{
+    padding-left: 28px;
+}
+.video h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: #ffa500;
+    text-shadow: wheat 2px 2px 1px;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border: solid orange 1px;
+    border-radius: 35%;
+}
+/* fin section video */
+
+/* fin main */
+/* inicio footer */
+footer{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #333333, #47424b, #624f5f, #825b6e, #a46877);
+    text-align: center;
+    font-size: 25px;
+}
+.redes p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: orange;
+    text-shadow: wheat 2px 2px 1px;
+}
+.redes i {
+    letter-spacing: 20px;
+    font-size: 40px;
+}
+#facebook:hover{
+    color: rgba(0, 0, 255, 0.753);
+}
+#instagram:hover{
+    color: purple;
+}
+#twitter:hover{
+    color: rgb(0, 153, 255);
+}
+/* fin footer */
+
+/* inicio pagina mundo */
+.noticiamundo{
+    margin: 0.1px;
+}
+.publicidad{
+    height: 500px;
+    background-image: url(../img/img7.jpg);
+    background-size: cover;
+    position: sticky;
+    top: 50px;
+}
+.alertatormenta{
+    border: none;
+
+}
+.alertatormenta h1{
+    text-transform: capitalize;
+    color: orange;
+}
+.alertatormenta p {
+    text-align: justify;
+}
+h3{
+    text-transform: capitalize;
+    color: black;
+}
+
+/* fin pagina mundo */
